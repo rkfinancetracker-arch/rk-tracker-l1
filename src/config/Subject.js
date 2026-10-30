@@ -8,7 +8,8 @@ const subjectFullName ={
    "DI": "Derivatives",
    "AI": "Alternative Investments",
    "PM": "Portfolio Management",
-   "Ethics": "Ethics"
+   "Ethics": "Ethics",
+   "This is example Subject": "this is new exmaple "
 }
 
 
