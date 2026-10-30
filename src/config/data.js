@@ -105,7 +105,7 @@ const QUESTION_DATA = {
   "69. Mortgage-Backed Security (MBS) Instrument and Market Features"
 ]),
 
-"Derivatives": createSubject([
+"DI": createSubject([
   "70. Derivative Instrument and Derivative Market Features",
   "71. Forward Commitment and Contingent Claim Features and Instruments",
   "72. Derivative Benefits, Risks, and Issuer and Investor Uses",
@@ -128,7 +128,7 @@ const QUESTION_DATA = {
   "86. Introduction to Digital Assets"
 ]),
 
-"Port Mgmt": createSubject([
+"PM": createSubject([
   "87. Portfolio Risk & Return: Part I",
   "88. Portfolio Risk & Return: Part II",
   "89. Portfolio Management: An Overview",
