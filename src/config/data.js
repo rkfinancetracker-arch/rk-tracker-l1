@@ -17,137 +17,138 @@ const createSubject = (chapters) => {
 
 // 3. Define the main data structure by listing only the chapter names
 const QUESTION_DATA = {
-  "Quants": createSubject([
-    "1. Rates and Returns",
-    "2. Time Value of Money in Finance",
-    "3. Statistical Measures of Asset Returns",
-    "4. Probability Trees and Conditional Expectations",
-    "5. Portfolio Mathematics",
-    "6. Simulation Methods",
-    "7. Estimation and Inference",
-    "8. Hypothesis Testing",
-    "9. Parametric and Non-Parametric Tests of Independence",
-    "10. Simple Linear Regression",
-    "11. Introduction to Big Data Techniques"
-  ]),
+  
+"Quants": createSubject([
+  "1. Returns of Financial Assets and Instruments",
+  "2. Types of Financial Returns",
+  "3. Benchmarking Returns",
+  "4. The Time Value of Money in Finance",
+  "5. Statistical Characteristics of Asset Returns",
+  "6. Statistical Distributions for Financial Asset Prices and Returns",
+  "7. Estimation and Hypothesis Testing",
+  "8. The Return and Risk of a Financial Portfolio",
+  "9. Simulation of Financial Asset Prices and Returns",
+  "10. Applications of Simple Linear Regression in Finance",
+  "11. Introduction to Financial Data Science"
+]),
 
-  "ECO": createSubject([
-    "12. The Firm and Market Structures",
-    "13. Understanding Business Cycles",
-    "14. Fiscal Policy",
-    "15. Monetary Policy",
-    "16. Introduction to Geopolitics",
-    "17. International Trade",
-    "18. Capital Flows and the FX Market",
-    "19. Exchange Rate Calculations"
-  ]),
+"ECO": createSubject([
+  "12. The Firm & Market Structures",
+  "13. Understanding Business Cycles",
+  "14. Fiscal Policy",
+  "15. Monetary Policy",
+  "16. Introduction to Geopolitics",
+  "17. International Trade",
+  "18. Capital Flows and the FX Market",
+  "19. Exchange Rate Calculations"
+]),
 
-  "CI": createSubject([
-    "20. Organizational Forms, Corporate Issuer Features, and Ownership",
-    "21. Investors and Other Stakeholders",
-    "22. Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
-    "23. Working Capital and Liquidity",
-    "24. Capital Investments and Capital Allocation",
-    "25. Capital Structure",
-    "26. Business Models"
-  ]),
+"CI": createSubject([
+  "20. Organizational Forms, Corporate Issuer Features, and Ownership",
+  "21. Investors and Other Stakeholders",
+  "22. Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+  "23. Working Capital and Liquidity",
+  "24. Capital Investments and Capital Allocation",
+  "25. Capital Structure",
+  "26. Business Models"
+]),
 
-  "FSA": createSubject([
-    "27. Introduction to Financial Statement Analysis",
-    "28. Analyzing Income Statements",
-    "29. Analyzing Balance Sheets",
-    "30. Analyzing Statements of Cash Flows I",
-    "31. Analyzing Statements of Cash Flows II",
-    "32. Analysis of Inventories",
-    "33. Analysis of Long-Term Assets",
-    "34. Topics in Long-Term Liabilities and Equity",
-    "35. Analysis of Income Taxes",
-    "36. Financial Reporting Quality",
-    "37. Financial Analysis Techniques",
-    "38. Introduction to Financial Statement Modeling"
-  ]),
+"FSA": createSubject([
+  "27. Introduction to Financial Statement Analysis",
+  "28. Analyzing Income Statements",
+  "29. Analyzing Balance Sheets",
+  "30. Analyzing Statements of Cash Flows I",
+  "31. Analyzing Statements of Cash Flows II",
+  "32. Analysis of Inventories",
+  "33. Analysis of Long-Term Assets",
+  "34. Topics in Long-Term Liabilities and Equity",
+  "35. Analysis of Income Taxes",
+  "36. Financial Reporting Quality",
+  "37. Financial Analysis Techniques",
+  "38. Introduction to Financial Statement Modeling"
+]),
 
-  "Equity": createSubject([
-    "39. Market Organization and Structure",
-    "40. Security Market Indexes",
-    "41. Market Efficiency",
-    "42. Overview of Equity Securities",
-    "43. Company Analysis: Past and Present",
-    "44. Industry and Competitive Analysis",
-    "45. Company Analysis: Forecasting",
-    "46. Equity Valuation: Concepts and Basic Tools"
-  ]),
+"Equity": createSubject([
+  "39. Equity Instrument Features",
+  "40. Equity Jurisdictions, Classes, and the Voting Process",
+  "41. Equity Issuance and Trading",
+  "42. Sources of Equity Returns",
+  "43. Introduction to Equity Valuation",
+  "44. Discounted Cash Flow and Growth Models",
+  "45. Relative Value Equity Valuation Approaches",
+  "46. Financial Statement Forecasting in Equity Valuation",
+  "47. Industry and Competitive Analysis",
+  "48. Company Analysis: Past, Present, and Future",
+  "49. Equity Analyst Research Reports",
+  "50. The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models"
+]),
 
-  "FI": createSubject([
-    "47. Fixed-Income Instrument Features",
-    "48. Fixed-Income Cash Flows and Types",
-    "49. Fixed-Income Issuance and Trading",
-    "50. Fixed-Income Markets for Corporate Issuers",
-    "51. Fixed-Income Markets for Government Issuers",
-    "52. Fixed-Income Bond Valuation: Prices and Yields",
-    "53. Yield and Yield Spread Measures for Fixed-Rate Bonds",
-    "54. Yield and Yield Spread Measures for Floating-Rate Instruments",
-    "55. The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
-    "56. Interest Rate Risk and Return",
-    "57. Yield-Based Bond Duration Measures and Properties",
-    "58. Yield-Based Bond Convexity and Portfolio Properties",
-    "59. Curve-Based and Empirical Fixed-Income Risk Measures",
-    "60. Credit Risk",
-    "61. Credit Analysis for Government Issuers",
-    "62. Credit Analysis for Corporate Issuers",
-    "63. Fixed-Income Securitization",
-    "64. Asset-Backed Security (ABS) Instrument and Market Features",
-    "65. Mortgage-Backed Security (MBS) Instrument and Market Features"
-  ]),
+"FI": createSubject([
+  "51. Fixed-Income Instrument Features",
+  "52. Fixed-Income Cash Flows and Types",
+  "53. Fixed-Income Issuance and Trading",
+  "54. Fixed-Income Markets for Corporate Issuers",
+  "55. Fixed-Income Markets for Government Issuers",
+  "56. Fixed-Income Bond Valuation: Prices and Yields",
+  "57. Yield and Yield Spread Measures for Fixed-Rate Bonds",
+  "58. Yield and Yield Spread Measures for Floating-Rate Instruments",
+  "59. The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+  "60. Interest Rate Risk and Return",
+  "61. Yield-Based Bond Duration Measures and Properties",
+  "62. Yield-Based Bond Convexity and Portfolio Properties",
+  "63. Curve-Based and Empirical Fixed-Income Risk Measures",
+  "64. Credit Risk",
+  "65. Credit Analysis for Government Issuers",
+  "66. Credit Analysis for Corporate Issuers",
+  "67. Fixed-Income Securitization",
+  "68. Asset-Backed Security (ABS) Instrument and Market Features",
+  "69. Mortgage-Backed Security (MBS) Instrument and Market Features"
+]),
 
-  "DI": createSubject([
-    "66. Derivative Instrument and Derivative Market Features",
-    "67. Forward Commitment and Contingent Claim Features and Instruments",
-    "68. Derivative Benefits, Risks, and Issuer and Investor Uses",
-    "69. Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
-    "70. Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
-    "71. Pricing and Valuation of Futures Contracts",
-    "72. Pricing and Valuation of Interest Rates and Other Swaps",
-    "73. Pricing and Valuation of Options",
-    "74. Option Replication Using Put-Call Parity",
-    "75. Valuing a Derivative Using a One-Period Binomial Model"
-  ]),
+"Derivatives": createSubject([
+  "70. Derivative Instrument and Derivative Market Features",
+  "71. Forward Commitment and Contingent Claim Features and Instruments",
+  "72. Derivative Benefits, Risks, and Issuer and Investor Uses",
+  "73. Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+  "74. Pricing and Valuation of",
+  "75. Pricing and Valuation of Futures Contracts",
+  "76. Pricing and Valuation of Interest Rate and Other Swaps",
+  "77. Pricing and Valuation of Options",
+  "78. Option Replication Using Put-Call Parity",
+  "79. Valuing a Derivative Using a One-Period Binomial Model"
+]),
 
-  "AI": createSubject([
-    "76. Alternative Investment Features, Methods, and Structures",
-    "77. Alternative Investment Performance and Returns",
-    "78. Investments in Private Capital: Equity and Debt",
-    "79. Real Estate and Infrastructure",
-    "80. Natural Resources",
-    "81. Hedge Funds",
-    "82. Introduction to Digital Assets"
-  ]),
+"AI": createSubject([
+  "80. Alternative Investment Features, Methods, and Structures",
+  "81. Alternative Investment Performance and Returns",
+  "82. Investments in Private Capital: Equity and Debt",
+  "83. Real Estate and Infrastructure",
+  "84. Natural Resources",
+  "85. Hedge Funds",
+  "86. Introduction to Digital Assets"
+]),
 
-  "PM": createSubject([
-    "83. Portfolio Risk and Return: Part I",
-    "84. Portfolio Risk and Return: Part II",
-    "85. Portfolio Management: An Overview",
-    "86. Basics of Portfolio Planning and Construction",
-    "87. The Behavioral Biases of Individuals",
-    "88. Introduction to Risk Management"
-  ]),
+"Port Mgmt": createSubject([
+  "87. Portfolio Risk & Return: Part I",
+  "88. Portfolio Risk & Return: Part II",
+  "89. Portfolio Management: An Overview",
+  "90. Basics of Portfolio Planning & Construction",
+  "91. The Behavioral Biases of Individuals",
+  "92. Introduction to Risk Management"
+]),
 
-  "Ethics": createSubject([
-    "89. Ethics and Trust in the Investment Profession",
-    "90. Code of Ethics and Standards of Professional Conduct",
-    "91. Guidance for Standards I-VII",
-    "91.1 . Guidance for Standards I-VII: 1AB",
-    "91.2 . Guidance for Standards I-VII: 1CD",
-    "91.3 . Guidance for Standards I-VII: 2AB",
-    "91.4 . Guidance for Standards I-VII: 3AB",
-    "91.5 . Guidance for Standards I-VII: 3CDE",
-    "91.6 . Guidance for Standards I-VII: 4ABC",
-    "91.7 . Guidance for Standards I-VII: 5",
-    "91.8 . Guidance for Standards I-VII: 6",
-    "91.9 . Guidance for Standards I-VII: 7",
-    "92. Introduction to the Global Investment Performance Standards (GIPS)",
-    "93. Ethics Application"
-  ])
+"Ethics": createSubject([
+  "93. Ethics and Trust in the Investment Profession",
+  "94. Code of Ethics and Standards of Professional Conduct",
+  "95. Guidance for Standard I: Professionalism",
+  "96. Guidance for Standard II: Integrity of Capital Markets",
+  "97. Guidance for Standard III: Duties to Clients",
+  "98. Guidance for Standard IV: Duties to Employers",
+  "99. Guidance for Standard V: Investment Analysis, Recommendations, and Actions",
+  "100. Guidance for Standard VI: Conflicts of Interest",
+  "101. Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate",
+  "102. Ethics Application of the Code and Standards: Level I"
+])
 };
 
 export default QUESTION_DATA;
