@@ -18,7 +18,7 @@ const createSubject = (chapters) => {
 // 3. Define the main data structure by listing only the chapter names
 const QUESTION_DATA = {
   "Quants": createSubject([
-    "1. Rates and Returns",
+    "1. Rates and Returns Test Change",
     "2. Time Value of Money in Finance",
     "3. Statistical Measures of Asset Returns",
     "4. Probability Trees and Conditional Expectations",
