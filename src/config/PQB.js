@@ -9,7 +9,7 @@ const PQBTOTAL ={
    "AI": 64,
    "PM": 100,
    "Ethics": 200,
-   "xapme":201
+   "This is example Subject":201
 }
 
 export default PQBTOTAL;
